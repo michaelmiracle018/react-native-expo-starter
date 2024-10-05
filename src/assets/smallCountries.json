@@ -1,0 +1,32 @@
+[
+    {
+        "phoneCode": 233,
+        "capitalCity": "Accra",
+        "flagEmoji": "🇬🇭",
+        "name": "Ghana",
+        "currency": "Ghanaian cedi",
+        "internetUsers": 1297000,
+        "officialLanguage": "English",
+        "population": 25758108,
+        "altSpellings": "",
+        "subRegion": "",
+        "area": "",
+        "countryCode": "GH",
+        "currencyShortHand": "GHS"
+      },
+      {
+        "phoneCode": 234,
+        "capitalCity": "Abuja",
+        "flagEmoji": "🇳🇬",
+        "name": "Nigeria",
+        "currency": "Nigerian naira",
+        "internetUsers": 43989000,
+        "officialLanguage": "English",
+        "population": 200963599,
+        "altSpellings": "",
+        "subRegion": "",
+        "area": "",
+        "countryCode": "NG",
+        "currencyShortHand": "NGN"
+      }
+]

@@ -1,0 +1,1524 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-09-09 07:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:181
+msgid "Ability to Accept Terms of Use"
+msgstr "Ability to Accept Terms of Use"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:40
+msgid "About SendAfrika"
+msgstr "About SendAfrika"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:257
+msgid "Acceptable Payment Transactions"
+msgstr "Acceptable Payment Transactions"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:103
+#~ msgid "Accont Name"
+#~ msgstr "Accont Name"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:109
+#~ msgid "Accont Number"
+#~ msgstr "Accont Number"
+
+#: app/(authenticated)/(tabs)/payment.tsx:88
+msgid "Account"
+msgstr "Account"
+
+#: app/(authenticated)/createPaymentType.tsx:289
+#~ msgid "Account name"
+#~ msgstr "Account name"
+
+#: app/(authenticated)/createPaymentType.tsx:289
+#: app/(authenticated)/quotes/[quoteId].tsx:103
+msgid "Account Name"
+msgstr "Account Name"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:109
+msgid "Account Number"
+msgstr "Account Number"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:238
+msgid "Account number for both Users (the merchant and the customer)"
+msgstr "Account number for both Users (the merchant and the customer)"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:114
+msgid "Account registration on SendAfrika"
+msgstr "Account registration on SendAfrika"
+
+#: app/(authenticated)/profile.tsx:83
+msgid "Account Type"
+msgstr "Account Type"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:131
+msgid "Action"
+msgstr "Action"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:138
+msgid "Actions"
+msgstr "Actions"
+
+#: app/(authenticated)/createPaymentType.tsx:275
+msgid "Address"
+msgstr "Address"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:740
+msgid "Agreement/Changes to the Terms of Use"
+msgstr "Agreement/Changes to the Terms of Use"
+
+#: components/orderHistory/OrderHistoryTabs.tsx:21
+#: components/quotes/QuoteSlideTabs.tsx:92
+msgid "All"
+msgstr "All"
+
+#: app/(authenticated)/quotes/createQuote.tsx:265
+#: app/(authenticated)/quotes/editQuote.tsx:237
+#~ msgid "Amount range currency"
+#~ msgstr "Amount range currency"
+
+#: app/(authenticated)/quotes/createQuote.tsx:265
+#: app/(authenticated)/quotes/editQuote.tsx:237
+msgid "Amount Range Currency"
+msgstr "Amount Range Currency"
+
+#: app/(authenticated)/quotes/createQuote.tsx:233
+#: app/(authenticated)/quotes/editQuote.tsx:205
+#~ msgid "Amount range end"
+#~ msgstr "Amount range end"
+
+#: app/(authenticated)/quotes/createQuote.tsx:233
+#: app/(authenticated)/quotes/editQuote.tsx:205
+msgid "Amount Range End"
+msgstr "Amount Range End"
+
+#: app/(authenticated)/quotes/createQuote.tsx:198
+#: app/(authenticated)/quotes/editQuote.tsx:170
+#~ msgid "Amount range start"
+#~ msgstr "Amount range start"
+
+#: app/(authenticated)/quotes/createQuote.tsx:198
+#: app/(authenticated)/quotes/editQuote.tsx:170
+msgid "Amount Range Start"
+msgstr "Amount Range Start"
+
+#: app/(authenticated)/[marketOrderId].tsx:249
+msgid "Amount we'll convert"
+msgstr "Amount we'll convert"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:334
+msgid "Any other use of a user or operator’s user ID and password that breaches these terms of use or applicable laws."
+msgstr "Any other use of a user or operator’s user ID and password that breaches these terms of use or applicable laws."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:324
+msgid "Any payment transactions processed due to access by individuals to whom they have disclosed their user ID and password;"
+msgstr "Any payment transactions processed due to access by individuals to whom they have disclosed their user ID and password;"
+
+#: app/(authenticated)/profile.tsx:297
+msgid "App Language"
+msgstr "App Language"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:115
+msgid "Application to become a Merchant"
+msgstr "Application to become a Merchant"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:64
+msgid "Apply to become a SendAfrika merchant or customer"
+msgstr "Apply to become a SendAfrika merchant or customer"
+
+#: components/orderHistory/OrderHistoryTabs.tsx:36
+msgid "Approved"
+msgstr "Approved"
+
+#: app/(authenticated)/profile.tsx:266
+msgid "Are you sure you want to clear cache?"
+msgstr "Are you sure you want to clear cache?"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:230
+msgid "Are you sure you want to delete this Quote?"
+msgstr "Are you sure you want to delete this Quote?"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:772
+msgid "Assignment"
+msgstr "Assignment"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:283
+msgid "At any time, SendAfrika may define, change, or modify acceptable practices and restrictions related to the use of the SendAfrika service, including access restrictions for customers, users, and operators, as well as modifications or changes to payment transactions. SendAfrika reserves the right to cancel, suspend, or modify any aspect of its service without notice or liability, including service schedules, availability, or any other feature."
+msgstr "At any time, SendAfrika may define, change, or modify acceptable practices and restrictions related to the use of the SendAfrika service, including access restrictions for customers, users, and operators, as well as modifications or changes to payment transactions. SendAfrika reserves the right to cancel, suspend, or modify any aspect of its service without notice or liability, including service schedules, availability, or any other feature."
+
+#: components/signUp/OtpEmailCode.tsx:124
+msgid "Back to email"
+msgstr "Back to email"
+
+#: components/signUp/OtpPhoneCode.tsx:125
+msgid "Back to phone"
+msgstr "Back to phone"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:115
+msgid "Bank Name"
+msgstr "Bank Name"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:233
+msgid "Bank name for both Users (the merchant and the customer)"
+msgstr "Bank name for both Users (the merchant and the customer)"
+
+#: components/signUp/SelectAccount.tsx:66
+msgid "Business Account"
+msgstr "Business Account"
+
+#: components/signUp/BusinessInformation.tsx:62
+#: components/signUp/BusinessInformation.tsx:76
+msgid "Business Information"
+msgstr "Business Information"
+
+#: components/signUp/BusinessInformation.tsx:141
+msgid "Business Name"
+msgstr "Business Name"
+
+#: components/signUp/BusinessInformation.tsx:105
+msgid "Business Type"
+msgstr "Business Type"
+
+#: app/(authenticated)/[marketOrderId].tsx:90
+#: app/(authenticated)/quotes/[quoteId].tsx:53
+#: app/(authenticated)/quotes/editQuote.tsx:75
+#: components/market/LeftCurrencySelector.tsx:44
+#: components/market/MarketRenderList.tsx:58
+#: components/market/MarketSlideTabs.tsx:92
+#: components/quotes/LeftQuoteCurrencySelector.tsx:44
+#: components/quotes/QuoteSlideTabs.tsx:94
+#: components/quotes/RenderQuotesList.tsx:18
+msgid "Buy"
+msgstr "Buy"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:71
+msgid "By using this service, the operator agrees to be bound by these Terms of Use and the conditions of the Privacy Policy. SendAfrika Limited hereby grants you permission to use this service solely in the manner set forth in the SendAfrika user guide, which is incorporated herein by reference; provided that you will not copy, distribute, alter, or modify any part of this service in any medium without SendAfrika Limited’s express written permission. The following conditions of service between the user and SendAfrika Limited serve as a binding legal document. In addition to the Terms of Use contained in this document, other terms and conditions may apply to your use of this service offered via the SendAfrika service, and you will be bound by these additional terms where applicable."
+msgstr "By using this service, the operator agrees to be bound by these Terms of Use and the conditions of the Privacy Policy. SendAfrika Limited hereby grants you permission to use this service solely in the manner set forth in the SendAfrika user guide, which is incorporated herein by reference; provided that you will not copy, distribute, alter, or modify any part of this service in any medium without SendAfrika Limited’s express written permission. The following conditions of service between the user and SendAfrika Limited serve as a binding legal document. In addition to the Terms of Use contained in this document, other terms and conditions may apply to your use of this service offered via the SendAfrika service, and you will be bound by these additional terms where applicable."
+
+#: components/ResendCodeTimer.tsx:29
+msgid "can resend code after"
+msgstr "can resend code after"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:239
+msgid "Cancel"
+msgstr "Cancel"
+
+#: app/(authenticated)/changePassword.tsx:54
+#: app/(authenticated)/profile.tsx:150
+msgid "Change Password"
+msgstr "Change Password"
+
+#: components/signUp/SelectAccount.tsx:22
+msgid "Choose an account type"
+msgstr "Choose an account type"
+
+#: app/(authenticated)/profile.tsx:287
+msgid "Clear"
+msgstr "Clear"
+
+#: app/(authenticated)/profile.tsx:224
+msgid "Clear Cache"
+msgstr "Clear Cache"
+
+#: app/(authenticated)/profile.tsx:275
+#: app/(authenticated)/profile.tsx:335
+msgid "Close"
+msgstr "Close"
+
+#: components/forgotPassword/ForgotPasswordEmailValidate.tsx:42
+#: components/forgotPassword/ForgotPasswordOTPEmail.tsx:42
+#: components/signUp/EmailValidate.tsx:54
+#: components/signUp/PhoneValidate.tsx:84
+msgid "code has been sent to your email"
+msgstr "code has been sent to your email"
+
+#: components/signUp/OtpPhoneCode.tsx:68
+msgid "code has expired, please click resend to get a new one"
+msgstr "code has expired, please click resend to get a new one"
+
+#: components/signUp/OtpEmailCode.tsx:66
+msgid "code has expired, please try again."
+msgstr "code has expired, please try again."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:426
+msgid "Communication From a User or Operator to SendAfrika"
+msgstr "Communication From a User or Operator to SendAfrika"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:211
+msgid "Complete trading and provide customer support"
+msgstr "Complete trading and provide customer support"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:215
+msgid "Comply with legal requirements"
+msgstr "Comply with legal requirements"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:329
+msgid "Consequences of misuse of their user ID and password;"
+msgstr "Consequences of misuse of their user ID and password;"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:89
+msgid "Contact Information: Email address and phone number."
+msgstr "Contact Information: Email address and phone number."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:330
+msgid "Contact Us"
+msgstr "Contact Us"
+
+#: app/(authenticated)/changePassword.tsx:165
+msgid "Continue to login with your new password"
+msgstr "Continue to login with your new password"
+
+#: app/(authenticated)/createPaymentType.tsx:179
+#: components/signUp/PhoneValidate.tsx:124
+msgid "Country"
+msgstr "Country"
+
+#: app/(authenticated)/createPaymentType.tsx:75
+msgid "Create Account"
+msgstr "Create Account"
+
+#: components/signUp/SelectAccount.tsx:69
+msgid "Create an account to have more access."
+msgstr "Create an account to have more access."
+
+#: app/(authenticated)/quotes/createQuote.tsx:87
+msgid "Create Quote"
+msgstr "Create Quote"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:95
+msgid "Created At"
+msgstr "Created At"
+
+#: app/(authenticated)/createPaymentType.tsx:84
+#: app/(authenticated)/createPaymentType.tsx:100
+msgid "Currency"
+msgstr "Currency"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:117
+msgid "Customer support interactions"
+msgstr "Customer support interactions"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:105
+msgid "Customer/you: Shall mean any individual or corporation that presents a request for a peer-to-peer transaction at an operator’s location using the service."
+msgstr "Customer/you: Shall mean any individual or corporation that presents a request for a peer-to-peer transaction at an operator’s location using the service."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:213
+msgid "Customize your user experience"
+msgstr "Customize your user experience"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:180
+msgid "Data Breach Notification"
+msgstr "Data Breach Notification"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:150
+msgid "Data Subject Rights"
+msgstr "Data Subject Rights"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:93
+msgid "Definition of Terms"
+msgstr "Definition of Terms"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:244
+msgid "Delete"
+msgstr "Delete"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:206
+msgid "Delete fx quote"
+msgstr "Delete fx quote"
+
+#: app/(authenticated)/createPaymentType.tsx:86
+msgid "Details"
+msgstr "Details"
+
+#: components/ResendCodeTimer.tsx:57
+msgid "Didn't receive a code?"
+msgstr "Didn't receive a code?"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:78
+#: app/(authenticated)/quotes/[quoteId].tsx:152
+#: components/quotes/RenderQuotesList.tsx:28
+msgid "Disbled"
+msgstr "Disbled"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:576
+msgid "Disclaimer"
+msgstr "Disclaimer"
+
+#: app/(auth)/login.tsx:133
+msgid "Don't have an account?"
+msgstr "Don't have an account?"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:182
+msgid "Edit fx quote"
+msgstr "Edit fx quote"
+
+#: app/(authenticated)/quotes/editQuote.tsx:70
+msgid "Edit Quote"
+msgstr "Edit Quote"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:407
+msgid "Electronic Communications Usage"
+msgstr "Electronic Communications Usage"
+
+#: app/(auth)/forgetPassword.tsx:111
+#: app/(auth)/login.tsx:95
+#: app/(authenticated)/profile.tsx:89
+#: app/(authenticated)/profile.tsx:111
+#: components/forgotPassword/ForgotPasswordEmailValidate.tsx:94
+#: components/signUp/EmailValidate.tsx:88
+msgid "Email"
+msgstr "Email"
+
+#: components/signUp/OtpEmailCode.tsx:54
+msgid "Email verified successfully"
+msgstr "Email verified successfully"
+
+#: app/(authenticated)/profile.tsx:113
+msgid "Email verified sucessfully"
+msgstr "Email verified sucessfully"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:342
+msgid "Email:"
+msgstr "Email:"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:77
+#: app/(authenticated)/quotes/[quoteId].tsx:151
+#: components/quotes/RenderQuotesList.tsx:28
+msgid "Enabled"
+msgstr "Enabled"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:61
+msgid "Engage with SendAfrika on social media"
+msgstr "Engage with SendAfrika on social media"
+
+#: app/(authenticated)/[marketOrderId].tsx:156
+#: app/(authenticated)/quotes/createQuote.tsx:114
+#: app/(authenticated)/quotes/createQuote.tsx:165
+#: app/(authenticated)/quotes/createQuote.tsx:213
+#: app/(authenticated)/quotes/createQuote.tsx:248
+#: app/(authenticated)/quotes/editQuote.tsx:105
+#: app/(authenticated)/quotes/editQuote.tsx:139
+#: app/(authenticated)/quotes/editQuote.tsx:185
+#: app/(authenticated)/quotes/editQuote.tsx:220
+msgid "Enter amount"
+msgstr "Enter amount"
+
+#: app/(authenticated)/[marketOrderId].tsx:140
+msgid "Enter Amount"
+msgstr "Enter Amount"
+
+#: app/(authenticated)/createPaymentType.tsx:290
+msgid "Enter your account"
+msgstr "Enter your account"
+
+#: app/(authenticated)/createPaymentType.tsx:276
+msgid "Enter your address"
+msgstr "Enter your address"
+
+#: components/forgotPassword/ForgotPasswordOTPEmail.tsx:66
+msgid "Enter your code"
+msgstr "Enter your code"
+
+#: app/(auth)/login.tsx:96
+#: components/forgotPassword/ForgotPasswordEmailValidate.tsx:95
+#: components/signUp/EmailValidate.tsx:78
+#: components/signUp/EmailValidate.tsx:89
+msgid "Enter your email"
+msgstr "Enter your email"
+
+#: components/signUp/PersonalInformation.tsx:88
+msgid "Enter your first name"
+msgstr "Enter your first name"
+
+#: components/signUp/PersonalInformation.tsx:100
+msgid "Enter your last name"
+msgstr "Enter your last name"
+
+#: app/(authenticated)/createPaymentType.tsx:306
+msgid "Enter your mobile number"
+msgstr "Enter your mobile number"
+
+#: components/signUp/PersonalInformation.tsx:113
+msgid "Enter your other names"
+msgstr "Enter your other names"
+
+#: components/forgotPassword/ForgotPasswordOTPEmail.tsx:79
+msgid "Enter your Otp Code"
+msgstr "Enter your Otp Code"
+
+#: app/(auth)/login.tsx:108
+#: app/(authenticated)/changePassword.tsx:64
+#: app/(authenticated)/changePassword.tsx:78
+#: app/(authenticated)/changePassword.tsx:130
+#: components/forgotPassword/ForgotSetPassword.tsx:41
+#: components/forgotPassword/ForgotSetPassword.tsx:50
+#: components/forgotPassword/ForgotSetPassword.tsx:95
+#: components/signUp/PasswordInformation.tsx:39
+#: components/signUp/PasswordInformation.tsx:48
+#: components/signUp/PasswordInformation.tsx:99
+msgid "Enter your password"
+msgstr "Enter your password"
+
+#: components/signUp/PhoneValidate.tsx:117
+#: components/signUp/PhoneValidate.tsx:175
+msgid "Enter your phone number"
+msgstr "Enter your phone number"
+
+#: components/signUp/BusinessInformation.tsx:220
+msgid "Enter your registration number"
+msgstr "Enter your registration number"
+
+#: components/signUp/BusinessInformation.tsx:232
+msgid "Enter your wevsite"
+msgstr "Enter your wevsite"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:653
+msgid "Except where prohibited by law, in no event will SendAfrika be liable to you or any third party for any indirect, consequential, exemplary, incidental, or punitive damages, including lost profits, even if SendAfrika has been advised of the possibility of such damages. Subject to any responsibilities implied by law and which cannot be excluded, we, and our directors, employees, agents, and contractors, are not liable for any losses, damages, liabilities, claims, and expenses (including but not limited to legal costs and defense or settlement costs) whatsoever, whether direct, indirect, or consequential, arising out of or referable to content on the SendAfrika application, third parties, or access to the SendAfrika application, howsoever caused, whether in contract, tort including negligence, statute, or otherwise. Liability of SendAfrika for a breach of a condition or warranty implied by law or otherwise, and which cannot be excluded, is limited to the extent possible, at SendAfrika's option, to (i) the supply of the goods or services again; (ii) the replacement of the goods; or (iii) the payment of the cost of having the goods or services supplied again or having the goods replaced."
+msgstr "Except where prohibited by law, in no event will SendAfrika be liable to you or any third party for any indirect, consequential, exemplary, incidental, or punitive damages, including lost profits, even if SendAfrika has been advised of the possibility of such damages. Subject to any responsibilities implied by law and which cannot be excluded, we, and our directors, employees, agents, and contractors, are not liable for any losses, damages, liabilities, claims, and expenses (including but not limited to legal costs and defense or settlement costs) whatsoever, whether direct, indirect, or consequential, arising out of or referable to content on the SendAfrika application, third parties, or access to the SendAfrika application, howsoever caused, whether in contract, tort including negligence, statute, or otherwise. Liability of SendAfrika for a breach of a condition or warranty implied by law or otherwise, and which cannot be excluded, is limited to the extent possible, at SendAfrika's option, to (i) the supply of the goods or services again; (ii) the replacement of the goods; or (iii) the payment of the cost of having the goods or services supplied again or having the goods replaced."
+
+#: components/orderHistory/OrderHistoryTabs.tsx:26
+msgid "Failed"
+msgstr "Failed"
+
+#: components/signUp/PersonalInformation.tsx:87
+msgid "First Name"
+msgstr "First Name"
+
+#: app/(authenticated)/[marketOrderId].tsx:96
+#: app/(authenticated)/quotes/[quoteId].tsx:59
+#: app/(authenticated)/quotes/editQuote.tsx:81
+#: components/market/RightCurrencySelector.tsx:44
+#: components/quotes/RenderQuotesList.tsx:22
+#: components/quotes/RightQuoteCurrencySelector.tsx:43
+msgid "For"
+msgstr "For"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:333
+msgid "For questions about this Privacy Notice or our privacy practices, or to request access to your information, please contact us at:"
+msgstr "For questions about this Privacy Notice or our privacy practices, or to request access to your information, please contact us at:"
+
+#: app/(auth)/login.tsx:148
+msgid "Forgot Password?"
+msgstr "Forgot Password?"
+
+#: components/market/MarketHeader.tsx:20
+msgid "Fx Markets"
+msgstr "Fx Markets"
+
+#: app/(authenticated)/(tabs)/quotes.tsx:62
+msgid "Fx Quote"
+msgstr "Fx Quote"
+
+#: app/(authenticated)/(tabs)/quotes.tsx:52
+msgid "Fx Quotes"
+msgstr "Fx Quotes"
+
+#: app/(authenticated)/profile.tsx:137
+msgid "General"
+msgstr "General"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:682
+msgid "Governing Law"
+msgstr "Governing Law"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:107
+msgid "How We Collect Personal Information"
+msgstr "How We Collect Personal Information"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:252
+msgid "How We Protect Personal Information"
+msgstr "How We Protect Personal Information"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:270
+msgid "How We Share Personal Information"
+msgstr "How We Share Personal Information"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:193
+msgid "How We Use Personal Information"
+msgstr "How We Use Personal Information"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:94
+msgid "Identity Document: Document for citizen verification(dependent on the country of Origin)"
+msgstr "Identity Document: Document for citizen verification(dependent on the country of Origin)"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:84
+msgid "Identity Information: First Name, last name and Other Name(Optional)"
+msgstr "Identity Information: First Name, last name and Other Name(Optional)"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:877
+msgid "If SendAfrika takes any legal action against you as a result of your violation of these terms of use, SendAfrika will be entitled to recover from you, and you agree to pay, all attorneys' fees and costs of such action, in addition to any other relief granted to SendAfrika. Miscellaneous: If any of the provisions of these terms of use are held by a court or other tribunal of competent jurisdiction to be void or unenforceable, such provisions shall be limited or eliminated to the minimum extent necessary and replaced with a valid provision that best embodies the intent of these terms of use, so that these terms of use shall remain in full force and effect. These terms of use constitute the entire agreement between you and SendAfrika regarding your use of the application, and any and all other written or oral agreements or understandings previously existing between you and SendAfrika with respect to such use are hereby superseded and cancelled. SendAfrika will not accept any counteroffers to these terms of use, and all such offers are categorically rejected. SendAfrika's failure to insist on or enforce strict performance of these terms of use shall not be construed as a waiver by SendAfrika of any provision or any right it has to enforce these terms of use, nor shall any course of conduct between SendAfrika and you or any other party be deemed to modify any provision of these terms of use. These terms of use shall not be interpreted or construed to confer any rights or remedies on any third parties."
+msgstr "If SendAfrika takes any legal action against you as a result of your violation of these terms of use, SendAfrika will be entitled to recover from you, and you agree to pay, all attorneys' fees and costs of such action, in addition to any other relief granted to SendAfrika. Miscellaneous: If any of the provisions of these terms of use are held by a court or other tribunal of competent jurisdiction to be void or unenforceable, such provisions shall be limited or eliminated to the minimum extent necessary and replaced with a valid provision that best embodies the intent of these terms of use, so that these terms of use shall remain in full force and effect. These terms of use constitute the entire agreement between you and SendAfrika regarding your use of the application, and any and all other written or oral agreements or understandings previously existing between you and SendAfrika with respect to such use are hereby superseded and cancelled. SendAfrika will not accept any counteroffers to these terms of use, and all such offers are categorically rejected. SendAfrika's failure to insist on or enforce strict performance of these terms of use shall not be construed as a waiver by SendAfrika of any provision or any right it has to enforce these terms of use, nor shall any course of conduct between SendAfrika and you or any other party be deemed to modify any provision of these terms of use. These terms of use shall not be interpreted or construed to confer any rights or remedies on any third parties."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:99
+msgid "Image : User facial verification image"
+msgstr "Image : User facial verification image"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:217
+msgid "Improve and expand our services through data analysis and product development"
+msgstr "Improve and expand our services through data analysis and product development"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:538
+msgid "In certain circumstances involving processed payment transactions, SendAfrika may hold funds pending resolution. Efforts will be made to contact you using recorded contact details. If contact is unsuccessful and there is no SendAfrika usage report for over three years, funds may be treated as unclaimed property under applicable law. SendAfrika reserves the right to deduct dormancy fees or administrative charges as permitted."
+msgstr "In certain circumstances involving processed payment transactions, SendAfrika may hold funds pending resolution. Efforts will be made to contact you using recorded contact details. If contact is unsuccessful and there is no SendAfrika usage report for over three years, funds may be treated as unclaimed property under applicable law. SendAfrika reserves the right to deduct dormancy fees or administrative charges as permitted."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:208
+msgid "In order to access and use the SendAfrika service, the operator must first obtain the SendAfrika application on his/her device, pay any service, telecommunication, or other fees associated with or incurred by such access, and must provide all equipment necessary to connect to the application. Operators acknowledge and agree that the SendAfrika service is offered on an “as is” and “as available” basis only. SendAfrika Limited may impose limits or restrictions on the use of the service with or without notice, and in certain situations may withdraw the SendAfrika services for any length of time at any time."
+msgstr "In order to access and use the SendAfrika service, the operator must first obtain the SendAfrika application on his/her device, pay any service, telecommunication, or other fees associated with or incurred by such access, and must provide all equipment necessary to connect to the application. Operators acknowledge and agree that the SendAfrika service is offered on an “as is” and “as available” basis only. SendAfrika Limited may impose limits or restrictions on the use of the service with or without notice, and in certain situations may withdraw the SendAfrika services for any length of time at any time."
+
+#: components/signUp/BusinessInformation.tsx:187
+msgid "Incorporation Country"
+msgstr "Incorporation Country"
+
+#: components/signUp/BusinessInformation.tsx:156
+msgid "Incorporation Type"
+msgstr "Incorporation Type"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:554
+msgid "Indemnification"
+msgstr "Indemnification"
+
+#: components/signUp/BusinessInformation.tsx:85
+#: components/signUp/PersonalInformation.tsx:64
+msgid "Information provided will be verified against your KYC/KYB (Know Your Customer/Know Your Business) verification."
+msgstr "Information provided will be verified against your KYC/KYB (Know Your Customer/Know Your Business) verification."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:119
+msgid "Inquiries"
+msgstr "Inquiries"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:795
+msgid "Intellectual Property"
+msgstr "Intellectual Property"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:321
+msgid "Keeping their user ID and password confidential;"
+msgstr "Keeping their user ID and password confidential;"
+
+#: app/(authenticated)/profile.tsx:129
+msgid "Know Your Business"
+msgstr "Know Your Business"
+
+#: app/(authenticated)/profile.tsx:123
+msgid "Know Your Customer"
+msgstr "Know Your Customer"
+
+#: app/(authenticated)/profile.tsx:176
+msgid "Language"
+msgstr "Language"
+
+#: components/signUp/PersonalInformation.tsx:99
+msgid "Last Name"
+msgstr "Last Name"
+
+#: app/(authenticated)/quotes/[quoteId].tsx:84
+msgid "Limit"
+msgstr "Limit"
+
+#: app/(authenticated)/[marketOrderId].tsx:122
+#: components/market/MarketRenderList.tsx:37
+msgid "Limit:"
+msgstr "Limit:"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:650
+msgid "Limitations of Liability"
+msgstr "Limitations of Liability"
+
+#: app/(auth)/login.tsx:127
+#: app/(authenticated)/changePassword.tsx:175
+msgid "Login"
+msgstr "Login"
+
+#: app/(authenticated)/lock/lock.tsx:149
+msgid "login with password!"
+msgstr "login with password!"
+
+#: app/(authenticated)/profile.tsx:199
+msgid "Logout"
+msgstr "Logout"
+
+#: app/(authenticated)/profile.tsx:202
+msgid "logout from this account"
+msgstr "logout from this account"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:301
+msgid "Marketing"
+msgstr "Marketing"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:243
+msgid "Mobile money details(if applicable to the country of either customer or both)"
+msgstr "Mobile money details(if applicable to the country of either customer or both)"
+
+#: app/(authenticated)/createPaymentType.tsx:238
+#~ msgid "Mobile network"
+#~ msgstr "Mobile network"
+
+#: app/(authenticated)/createPaymentType.tsx:238
+msgid "Mobile Network"
+msgstr "Mobile Network"
+
+#: app/(authenticated)/createPaymentType.tsx:305
+#~ msgid "Mobile number"
+#~ msgstr "Mobile number"
+
+#: app/(authenticated)/createPaymentType.tsx:305
+msgid "Mobile Number"
+msgstr "Mobile Number"
+
+#: app/(authenticated)/changePassword.tsx:77
+#~ msgid "New password"
+#~ msgstr "New password"
+
+#: app/(authenticated)/changePassword.tsx:77
+msgid "New Password"
+msgstr "New Password"
+
+#: app/(authenticated)/[marketOrderId].tsx:272
+#: app/(authenticated)/createPaymentType.tsx:130
+#: app/(authenticated)/createPaymentType.tsx:225
+#: app/(authenticated)/createPaymentType.tsx:327
+#: components/forgotPassword/ForgotPasswordEmailValidate.tsx:113
+#: components/forgotPassword/ForgotPasswordOTPEmail.tsx:105
+#: components/signUp/BusinessInformation.tsx:262
+#: components/signUp/EmailValidate.tsx:118
+#: components/signUp/PersonalInformation.tsx:139
+#: components/signUp/PhoneValidate.tsx:219
+msgid "Next"
+msgstr "Next"
+
+#: app/(authenticated)/(tabs)/market.tsx:34
+msgid "No market Found"
+msgstr "No market Found"
+
+#: app/(authenticated)/(tabs)/orderHistory.tsx:70
+#: app/(authenticated)/(tabs)/payment.tsx:100
+msgid "No Recipient Account Found"
+msgstr "No Recipient Account Found"
+
+#: app/(authenticated)/profile.tsx:124
+#: app/(authenticated)/profile.tsx:130
+msgid "Not verified"
+msgstr "Not verified"
+
+#: components/Stepper/StepperCount.tsx:19
+msgid "of"
+msgstr "of"
+
+#: components/signUp/BusinessInformation.tsx:94
+#: components/signUp/PersonalInformation.tsx:73
+msgid "Ok"
+msgstr "Ok"
+
+#: app/(authenticated)/changePassword.tsx:63
+#~ msgid "Old password"
+#~ msgstr "Old password"
+
+#: app/(authenticated)/changePassword.tsx:63
+msgid "Old Password"
+msgstr "Old Password"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:118
+msgid "Online forms"
+msgstr "Online forms"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:119
+msgid "Operator’s location: Shall mean the business premises or other designated location of registered operators where the SendAfrika service has been licensed to be operated by SendAfrika Limited."
+msgstr "Operator’s location: Shall mean the business premises or other designated location of registered operators where the SendAfrika service has been licensed to be operated by SendAfrika Limited."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:112
+msgid "Operator/you: Shall mean any financial institution that initiates and validates online payment transactions using the SendAfrika service."
+msgstr "Operator/you: Shall mean any financial institution that initiates and validates online payment transactions using the SendAfrika service."
+
+#: app/(authenticated)/(tabs)/orderHistory.tsx:60
+msgid "Order History"
+msgstr "Order History"
+
+#: components/orderHistory/OrderHistoryTabs.tsx:53
+msgid "Order to approve"
+msgstr "Order to approve"
+
+#: components/signUp/PersonalInformation.tsx:112
+msgid "Other Names"
+msgstr "Other Names"
+
+#: app/(authenticated)/profile.tsx:214
+msgid "Others"
+msgstr "Others"
+
+#: app/(auth)/forgetPassword.tsx:111
+msgid "Otp code"
+msgstr "Otp code"
+
+#: components/forgotPassword/ForgotPasswordOTPEmail.tsx:78
+msgid "Otp Code"
+msgstr "Otp Code"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:462
+msgid "Our refund policy does not affect your rights to challenge refund decisions through payment refund/chargeback processes handled by SendAfrika."
+msgstr "Our refund policy does not affect your rights to challenge refund decisions through payment refund/chargeback processes handled by SendAfrika."
+
+#: app/(auth)/forgetPassword.tsx:111
+msgid "password"
+msgstr "password"
+
+#: app/(auth)/login.tsx:107
+#: components/forgotPassword/ForgotSetPassword.tsx:49
+#: components/signUp/PasswordInformation.tsx:47
+msgid "Password"
+msgstr "Password"
+
+#: app/(authenticated)/changePassword.tsx:161
+msgid "Password changed successfully"
+msgstr "Password changed successfully"
+
+#: components/signUp/PasswordInformation.tsx:75
+msgid "Password contains at least one lowercase letter"
+msgstr "Password contains at least one lowercase letter"
+
+#: components/signUp/PasswordInformation.tsx:81
+msgid "Password contains at least one numeric"
+msgstr "Password contains at least one numeric"
+
+#: components/signUp/PasswordInformation.tsx:85
+msgid "Password contains at least one special character"
+msgstr "Password contains at least one special character"
+
+#: components/signUp/PasswordInformation.tsx:69
+msgid "Password contains at least one uppercase letter"
+msgstr "Password contains at least one uppercase letter"
+
+#: components/forgotPassword/ForgotSetPassword.tsx:100
+#: components/signUp/PasswordInformation.tsx:104
+msgid "password does not match"
+msgstr "password does not match"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:139
+msgid "Payment transaction: Shall mean a payment process initiated and validated for an authorized transfer of goods or services using the SendAfrika services through the application after payment is made."
+msgstr "Payment transaction: Shall mean a payment process initiated and validated for an authorized transfer of goods or services using the SendAfrika services through the application after payment is made."
+
+#: app/(authenticated)/createPaymentType.tsx:85
+msgid "payment Type"
+msgstr "payment Type"
+
+#: app/(authenticated)/createPaymentType.tsx:144
+msgid "Payment Type"
+msgstr "Payment Type"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:96
+msgid "Peer-to-peer transaction: Shall mean the direct exchange or transfer of value between two individuals, businesses, or entities without the involvement of a central authority or intermediary while using SendAfrika as a platform for this exchange."
+msgstr "Peer-to-peer transaction: Shall mean the direct exchange or transfer of value between two individuals, businesses, or entities without the involvement of a central authority or intermediary while using SendAfrika as a platform for this exchange."
+
+#: components/orderHistory/OrderHistoryTabs.tsx:31
+msgid "Pending"
+msgstr "Pending"
+
+#: components/signUp/SelectAccount.tsx:41
+msgid "Personal Account"
+msgstr "Personal Account"
+
+#: components/signUp/PersonalInformation.tsx:41
+#: components/signUp/PersonalInformation.tsx:55
+msgid "Personal Information"
+msgstr "Personal Information"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:73
+msgid "Personal Information We Collect"
+msgstr "Personal Information We Collect"
+
+#: app/(authenticated)/profile.tsx:116
+msgid "Phone"
+msgstr "Phone"
+
+#: components/signUp/PhoneValidate.tsx:155
+msgid "Phone Number"
+msgstr "Phone Number"
+
+#: components/signUp/OtpPhoneCode.tsx:55
+msgid "Phone number verified successfully"
+msgstr "Phone number verified successfully"
+
+#: app/(authenticated)/profile.tsx:118
+msgid "Phone verified sucessfully"
+msgstr "Phone verified sucessfully"
+
+#: components/signUp/BusinessInformation.tsx:79
+#: components/signUp/PersonalInformation.tsx:58
+msgid "Please ensure that the provided information should correspond to your [Passport or ID Card] information."
+msgstr "Please ensure that the provided information should correspond to your [Passport or ID Card] information."
+
+#: app/(auth)/login.tsx:94
+#: components/forgotPassword/ForgotPasswordEmailValidate.tsx:73
+#: components/forgotPassword/ForgotPasswordEmailValidate.tsx:93
+#: components/signUp/EmailValidate.tsx:87
+msgid "Please enter a valid email"
+msgstr "Please enter a valid email"
+
+#: components/forgotPassword/ForgotPasswordOTPEmail.tsx:83
+msgid "Please enter the 6 codes"
+msgstr "Please enter the 6 codes"
+
+#: components/forgotPassword/ForgotPasswordOTPEmail.tsx:69
+msgid "Please enter the 6 codes sent to"
+msgstr "Please enter the 6 codes sent to"
+
+#: components/signUp/OtpEmailCode.tsx:99
+#: components/signUp/OtpPhoneCode.tsx:98
+msgid "Please enter the 6-digits sent to"
+msgstr "Please enter the 6-digits sent to"
+
+#: app/(authenticated)/createPaymentType.tsx:217
+#: app/(authenticated)/createPaymentType.tsx:319
+#: components/forgotPassword/ForgotPasswordOTPEmail.tsx:95
+#: components/forgotPassword/ForgotSetPassword.tsx:114
+#: components/signUp/BusinessInformation.tsx:252
+#: components/signUp/EmailValidate.tsx:103
+#: components/signUp/PasswordInformation.tsx:117
+#: components/signUp/PersonalInformation.tsx:129
+#: components/signUp/PhoneValidate.tsx:204
+msgid "Previous"
+msgstr "Previous"
+
+#: app/(authenticated)/quotes/createQuote.tsx:181
+#: app/(authenticated)/quotes/editQuote.tsx:153
+msgid "Price range:"
+msgstr "Price range:"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:354
+msgid "Privacy"
+msgstr "Privacy"
+
+#: app/(authenticated)/profile.tsx:235
+msgid "Privacy & Policy"
+msgstr "Privacy & Policy"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:39
+msgid "Privacy Notice"
+msgstr "Privacy Notice"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:316
+msgid "Privacy Policy Update"
+msgstr "Privacy Policy Update"
+
+#: components/orderHistory/OrderHistoryTabs.tsx:42
+msgid "Processing"
+msgstr "Processing"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:228
+msgid "Processing of Payment Transactions"
+msgstr "Processing of Payment Transactions"
+
+#: app/(authenticated)/profile.tsx:65
+#~ msgid "profile"
+#~ msgstr "profile"
+
+#: app/(authenticated)/profile.tsx:66
+msgid "Profile"
+msgstr "Profile"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:371
+msgid "Provider Websites/Links to Third-Party Sites"
+msgstr "Provider Websites/Links to Third-Party Sites"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:147
+msgid "Provider: Shall mean any individual or corporation that provides goods or services for which payment shall be made using the SendAfrika service."
+msgstr "Provider: Shall mean any individual or corporation that provides goods or services for which payment shall be made using the SendAfrika service."
+
+#: app/(authenticated)/quotes/[quoteId].tsx:48
+msgid "Quote details"
+msgstr "Quote details"
+
+#: app/(authenticated)/quotes/createQuote.tsx:99
+#: app/(authenticated)/quotes/editQuote.tsx:90
+msgid "Rate"
+msgstr "Rate"
+
+#: app/(authenticated)/[marketOrderId].tsx:107
+msgid "Rate:"
+msgstr "Rate:"
+
+#: app/(authenticated)/[marketOrderId].tsx:199
+msgid "Recipient account"
+msgstr "Recipient account"
+
+#: app/(authenticated)/(tabs)/payment.tsx:79
+#: app/(authenticated)/quotes/createQuote.tsx:306
+#: app/(authenticated)/quotes/editQuote.tsx:278
+msgid "Recipient Account"
+msgstr "Recipient Account"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:459
+msgid "Refunds"
+msgstr "Refunds"
+
+#: components/signUp/BusinessInformation.tsx:219
+msgid "Registration Number"
+msgstr "Registration Number"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:205
+msgid "Registration Requirements"
+msgstr "Registration Requirements"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:443
+msgid "Request a paper copy (may be subject to a fee)"
+msgstr "Request a paper copy (may be subject to a fee)"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:438
+msgid "Request another electronic copy of a communication"
+msgstr "Request another electronic copy of a communication"
+
+#: components/ResendCodeTimer.tsx:61
+msgid "Resend"
+msgstr "Resend"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:214
+msgid "Resolve disputes and prevent fraud"
+msgstr "Resolve disputes and prevent fraud"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:280
+msgid "Restrictions on SendAfrika Product Usage"
+msgstr "Restrictions on SendAfrika Product Usage"
+
+#: app/(authenticated)/changePassword.tsx:129
+#~ msgid "Retype password"
+#~ msgstr "Retype password"
+
+#: app/(authenticated)/changePassword.tsx:129
+#: components/forgotPassword/ForgotSetPassword.tsx:94
+#: components/signUp/PasswordInformation.tsx:98
+msgid "Retype Password"
+msgstr "Retype Password"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:160
+msgid "Right to erase or restrict processing of personal information"
+msgstr "Right to erase or restrict processing of personal information"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:170
+msgid "Right to lodge compliant with the relevant data protection authority."
+msgstr "Right to lodge compliant with the relevant data protection authority."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:165
+msgid "Right to object to processing or request data portability"
+msgstr "Right to object to processing or request data portability"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:155
+msgid "Rights to access and verify personal information"
+msgstr "Rights to access and verify personal information"
+
+#: app/(authenticated)/(tabs)/payment.tsx:111
+msgid "Search a recipient account"
+msgstr "Search a recipient account"
+
+#: app/(authenticated)/quotes/createQuote.tsx:277
+#: app/(authenticated)/quotes/editQuote.tsx:249
+msgid "Select a currency"
+msgstr "Select a currency"
+
+#: app/(authenticated)/createPaymentType.tsx:250
+msgid "Select a network"
+msgstr "Select a network"
+
+#: app/(authenticated)/[marketOrderId].tsx:211
+#: app/(authenticated)/quotes/createQuote.tsx:318
+#: app/(authenticated)/quotes/editQuote.tsx:290
+msgid "Select a receipient account"
+msgstr "Select a receipient account"
+
+#: components/signUp/BusinessInformation.tsx:117
+msgid "Select business type"
+msgstr "Select business type"
+
+#: components/signUp/PhoneValidate.tsx:135
+msgid "Select country"
+msgstr "Select country"
+
+#: app/(authenticated)/createPaymentType.tsx:111
+msgid "Select currency"
+msgstr "Select currency"
+
+#: components/market/LeftCurrencySelector.tsx:48
+msgid "Select Currency"
+msgstr "Select Currency"
+
+#: components/signUp/BusinessInformation.tsx:198
+msgid "Select incorporation country"
+msgstr "Select incorporation country"
+
+#: components/signUp/BusinessInformation.tsx:167
+msgid "Select incorporation type"
+msgstr "Select incorporation type"
+
+#: app/(authenticated)/createPaymentType.tsx:156
+msgid "Select payment type"
+msgstr "Select payment type"
+
+#: app/(authenticated)/createPaymentType.tsx:190
+msgid "Select your country"
+msgstr "Select your country"
+
+#: app/(authenticated)/profile.tsx:301
+msgid "Select your language for the default text to display in the app."
+msgstr "Select your language for the default text to display in the app."
+
+#: app/(authenticated)/[marketOrderId].tsx:90
+#: app/(authenticated)/quotes/[quoteId].tsx:53
+#: app/(authenticated)/quotes/editQuote.tsx:75
+#: components/market/LeftCurrencySelector.tsx:44
+#: components/market/MarketRenderList.tsx:58
+#: components/market/MarketSlideTabs.tsx:92
+#: components/quotes/LeftQuoteCurrencySelector.tsx:44
+#: components/quotes/QuoteSlideTabs.tsx:95
+#: components/quotes/RenderQuotesList.tsx:18
+msgid "Sell"
+msgstr "Sell"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:482
+msgid "SendAfrika automates online payments between third parties and provides services related to online payment issuance. SendAfrika does not qualify as a financial institution, and funds held in connection with payment transactions are not deposits, nor are they insured by any government agency for customer benefit. SendAfrika facilitates payments between parties and acts as an independent contractor. SendAfrika does not control or assume liability for the legality or quality of goods/services paid for using its service, nor does it guarantee the identity of users/operators or completion of payment transactions."
+msgstr "SendAfrika automates online payments between third parties and provides services related to online payment issuance. SendAfrika does not qualify as a financial institution, and funds held in connection with payment transactions are not deposits, nor are they insured by any government agency for customer benefit. SendAfrika facilitates payments between parties and acts as an independent contractor. SendAfrika does not control or assume liability for the legality or quality of goods/services paid for using its service, nor does it guarantee the identity of users/operators or completion of payment transactions."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:469
+msgid "SendAfrika complies with payment brand policies; however, by using SendAfrika, you agree to our terms and conditions."
+msgstr "SendAfrika complies with payment brand policies; however, by using SendAfrika, you agree to our terms and conditions."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:391
+msgid "SendAfrika expressly disclaims any representation on behalf of third-party application operators. Customers and providers agree not to involve SendAfrika in any legal proceedings arising from disputes related to peer-to-peer transactions, except for claims directly related to technical faults in the SendAfrika service, which must be reported within ten (10) business days of the transaction."
+msgstr "SendAfrika expressly disclaims any representation on behalf of third-party application operators. Customers and providers agree not to involve SendAfrika in any legal proceedings arising from disputes related to peer-to-peer transactions, except for claims directly related to technical faults in the SendAfrika service, which must be reported within ten (10) business days of the transaction."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:523
+msgid "SendAfrika is not responsible for user/operator taxes related to its usage. Users/operators agree to comply with all applicable tax laws, including reporting and payment related to SendAfrika payment transactions."
+msgstr "SendAfrika is not responsible for user/operator taxes related to its usage. Users/operators agree to comply with all applicable tax laws, including reporting and payment related to SendAfrika payment transactions."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:43
+msgid "SendAfrika is owned and operated by SendAfrika Limited. The application, SendAfrika, is owned and licensed for use by SendAfrika Limited. It is a medium used to deliver our services, including peer-to-peer currency exchange, payment. Information, graphics, text, and other materials are governed by these Terms of Use and the associated Privacy Policy. By using this application and its services, users agree to comply with all the terms and conditions herein."
+msgstr "SendAfrika is owned and operated by SendAfrika Limited. The application, SendAfrika, is owned and licensed for use by SendAfrika Limited. It is a medium used to deliver our services, including peer-to-peer currency exchange, payment. Information, graphics, text, and other materials are governed by these Terms of Use and the associated Privacy Policy. By using this application and its services, users agree to comply with all the terms and conditions herein."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:295
+msgid "SendAfrika may also restrict certain features of the service or limit access to some or all features without notice or liability, and may suspend your usage entirely. Any such suspensions or restrictions will be communicated to you via email. Suspension or restriction of your use of the service will not affect your rights and obligations under these terms of use, whether arising before or after such suspension."
+msgstr "SendAfrika may also restrict certain features of the service or limit access to some or all features without notice or liability, and may suspend your usage entirely. Any such suspensions or restrictions will be communicated to you via email. Suspension or restriction of your use of the service will not affect your rights and obligations under these terms of use, whether arising before or after such suspension."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:410
+msgid "SendAfrika may communicate with you regarding your use of the service, payment transactions, or other matters electronically. This includes sending emails to the address provided during enrollment or posting notices on the SendAfrika site. By using the service, you agree to receive communications and records electronically, deemed received when sent to your email address on record or posted on the application."
+msgstr "SendAfrika may communicate with you regarding your use of the service, payment transactions, or other matters electronically. This includes sending emails to the address provided during enrollment or posting notices on the SendAfrika site. By using the service, you agree to receive communications and records electronically, deemed received when sent to your email address on record or posted on the application."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:505
+msgid "SendAfrika may terminate your service usage at its discretion without liability, including for inactivity or violation of these terms or other defined policies. After termination, you remain liable for all incurred obligations. SendAfrika reserves the right to block login details and deny future access post-termination, which may affect access for related parties."
+msgstr "SendAfrika may terminate your service usage at its discretion without liability, including for inactivity or violation of these terms or other defined policies. After termination, you remain liable for all incurred obligations. SendAfrika reserves the right to block login details and deny future access post-termination, which may affect access for related parties."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:479
+msgid "SendAfrika Service and Functions"
+msgstr "SendAfrika Service and Functions"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:133
+msgid "SendAfrika service: Shall mean the services provided and accessible via the SendAfrika application."
+msgstr "SendAfrika service: Shall mean the services provided and accessible via the SendAfrika application."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:127
+msgid "SendAfrika: Shall mean SendAfrika Limited, and any subsidiaries and affiliates."
+msgstr "SendAfrika: Shall mean SendAfrika Limited, and any subsidiaries and affiliates."
+
+#: app/(authenticated)/[marketOrderId].tsx:256
+msgid "Service charge"
+msgstr "Service charge"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:276
+msgid "Service Providers: Third parties offering Information Technology services, payment processing, data analysis, customer support, and email delivery"
+msgstr "Service Providers: Third parties offering Information Technology services, payment processing, data analysis, customer support, and email delivery"
+
+#: app/(authenticated)/profile.tsx:153
+msgid "Set new password"
+msgstr "Set new password"
+
+#: app/(authenticated)/changePassword.tsx:105
+#: components/forgotPassword/ForgotSetPassword.tsx:75
+msgid "Should contain at least one lowercase letter"
+msgstr "Should contain at least one lowercase letter"
+
+#: app/(authenticated)/changePassword.tsx:111
+#: components/forgotPassword/ForgotSetPassword.tsx:79
+msgid "Should contain at least one numeric"
+msgstr "Should contain at least one numeric"
+
+#: app/(authenticated)/changePassword.tsx:115
+#: components/forgotPassword/ForgotSetPassword.tsx:83
+msgid "Should contain at least one special character"
+msgstr "Should contain at least one special character"
+
+#: app/(authenticated)/changePassword.tsx:99
+#: components/forgotPassword/ForgotSetPassword.tsx:71
+msgid "Should contain at least one uppercase letter"
+msgstr "Should contain at least one uppercase letter"
+
+#: app/(authenticated)/changePassword.tsx:95
+#: components/forgotPassword/ForgotSetPassword.tsx:67
+#: components/signUp/PasswordInformation.tsx:65
+msgid "Should contain more than 8 characters"
+msgstr "Should contain more than 8 characters"
+
+#: app/(auth)/login.tsx:85
+msgid "Sign in with your email to continue."
+msgstr "Sign in with your email to continue."
+
+#: app/(auth)/login.tsx:140
+msgid "Sign Up"
+msgstr "Sign Up"
+
+#: components/Stepper/StepperCount.tsx:15
+msgid "Step"
+msgstr "Step"
+
+#: app/(authenticated)/changePassword.tsx:148
+#: app/(authenticated)/quotes/createQuote.tsx:347
+#: app/(authenticated)/quotes/editQuote.tsx:319
+#: components/forgotPassword/ForgotSetPassword.tsx:129
+#: components/signUp/PasswordInformation.tsx:127
+msgid "Submit"
+msgstr "Submit"
+
+#: components/orderHistory/OrderHistoryTabs.tsx:48
+msgid "Success"
+msgstr "Success"
+
+#: app/(authenticated)/lock/lock.tsx:128
+msgid "Tap to unlock with Touch Id"
+msgstr "Tap to unlock with Touch Id"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:520
+msgid "Taxes for Customers"
+msgstr "Taxes for Customers"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:502
+msgid "Termination"
+msgstr "Termination"
+
+#: app/(authenticated)/profile.tsx:246
+msgid "Terms & Condition"
+msgstr "Terms & Condition"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:68
+msgid "Terms of Use"
+msgstr "Terms of Use"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:374
+msgid "The SendAfrika application may include links to third-party websites such as the Apple Store and Play Store, operated independently of us (\"third-party websites\"). SendAfrika does not sponsor, endorse, or approve of the operators of third-party websites or the information, graphics, and material found on them (\"third-party material\"). We make no warranties or representations regarding the quality, accuracy, merchantability, or fitness for a particular purpose of third-party material or products/services available through third-party websites, nor do we warrant that third-party material does not infringe intellectual property rights. We do not authorize the reproduction of third-party material by linking to it from this website."
+msgstr "The SendAfrika application may include links to third-party websites such as the Apple Store and Play Store, operated independently of us (\"third-party websites\"). SendAfrika does not sponsor, endorse, or approve of the operators of third-party websites or the information, graphics, and material found on them (\"third-party material\"). We make no warranties or representations regarding the quality, accuracy, merchantability, or fitness for a particular purpose of third-party material or products/services available through third-party websites, nor do we warrant that third-party material does not infringe intellectual property rights. We do not authorize the reproduction of third-party material by linking to it from this website."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:579
+msgid "The SendAfrika service, including all content, software, functions, materials, and information made available in connection with or accessible through the service, is provided \"as is.\" To the fullest extent permissible by law, SendAfrika, its subsidiaries, affiliates, agents, co-branders, and partners (collectively, \"SendAfrika\") make no representation or warranty of any kind whatsoever for the service or the content, materials, information, and functions made accessible by the software used on or accessed through the service, or for any breach of security associated with the transmission of sensitive information through the service. Each SendAfrika entity disclaims, without limitation, any warranty of any kind with respect to the service, including but not limited to non-infringement, merchantability, or fitness for a particular purpose. SendAfrika does not warrant that the functions contained in the service will be uninterrupted or error-free. SendAfrika shall not be responsible for any service interruptions, including, but not limited to, system failures or other interruptions that may affect the receipt, processing, acceptance, completion, or settlement of payment transactions or the service."
+msgstr "The SendAfrika service, including all content, software, functions, materials, and information made available in connection with or accessible through the service, is provided \"as is.\" To the fullest extent permissible by law, SendAfrika, its subsidiaries, affiliates, agents, co-branders, and partners (collectively, \"SendAfrika\") make no representation or warranty of any kind whatsoever for the service or the content, materials, information, and functions made accessible by the software used on or accessed through the service, or for any breach of security associated with the transmission of sensitive information through the service. Each SendAfrika entity disclaims, without limitation, any warranty of any kind with respect to the service, including but not limited to non-infringement, merchantability, or fitness for a particular purpose. SendAfrika does not warrant that the functions contained in the service will be uninterrupted or error-free. SendAfrika shall not be responsible for any service interruptions, including, but not limited to, system failures or other interruptions that may affect the receipt, processing, acceptance, completion, or settlement of payment transactions or the service."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:231
+msgid "The SendAfrika services facilitate the processing of payment transactions to complete a payment for a transaction between a customer and a provider. The service will store information from customers and will process payment transactions on behalf of providers. Due to the nature of the service, SendAfrika Limited’s processing of payments for peer-to-peer transactions between a customer and a provider through the SendAfrika services means that SendAfrika shall have access to details of a customer’s payment instrument. SendAfrika reserves the right to store details from customers, including their payment instruments, and will automate payment transactions on behalf of providers through the appropriate debit card network and/or financial institutions. SendAfrika reserves the right to delay or stop the processing of any payment transactions that may be dubious, fraudulent, or violate the SendAfrika Terms of Use, Privacy Policy, or existing laws."
+msgstr "The SendAfrika services facilitate the processing of payment transactions to complete a payment for a transaction between a customer and a provider. The service will store information from customers and will process payment transactions on behalf of providers. Due to the nature of the service, SendAfrika Limited’s processing of payments for peer-to-peer transactions between a customer and a provider through the SendAfrika services means that SendAfrika shall have access to details of a customer’s payment instrument. SendAfrika reserves the right to store details from customers, including their payment instruments, and will automate payment transactions on behalf of providers through the appropriate debit card network and/or financial institutions. SendAfrika reserves the right to delay or stop the processing of any payment transactions that may be dubious, fraudulent, or violate the SendAfrika Terms of Use, Privacy Policy, or existing laws."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:743
+msgid "These are the current terms of use, replacing any prior terms of use for the SendAfrika website. SendAfrika may, at its sole discretion, vary, change, modify, add, or remove portions of these terms of use by publishing the revised terms on the SendAfrika application. SendAfrika is not obligated to specifically notify you of any changes to these terms of use. By continuing to use the application after such changes are posted, SendAfrika considers that you have been sufficiently notified of the variation, and your continued use of the application will indicate acceptance and agreement to the changes. We also reserve the right to update or amend any portion or all parts of these terms of use by posting notices on the SendAfrika application dashboard or by communicating the notice to you using the contact information in our records. These changes will take effect immediately upon posting and will apply on a going-forward basis in relation to all payment transactions initiated after the date of posting. As long as you comply with these terms of use, SendAfrika grants you a personal, non-exclusive, non-transferable, limited privilege to enter and use the website."
+msgstr "These are the current terms of use, replacing any prior terms of use for the SendAfrika website. SendAfrika may, at its sole discretion, vary, change, modify, add, or remove portions of these terms of use by publishing the revised terms on the SendAfrika application. SendAfrika is not obligated to specifically notify you of any changes to these terms of use. By continuing to use the application after such changes are posted, SendAfrika considers that you have been sufficiently notified of the variation, and your continued use of the application will indicate acceptance and agreement to the changes. We also reserve the right to update or amend any portion or all parts of these terms of use by posting notices on the SendAfrika application dashboard or by communicating the notice to you using the contact information in our records. These changes will take effect immediately upon posting and will apply on a going-forward basis in relation to all payment transactions initiated after the date of posting. As long as you comply with these terms of use, SendAfrika grants you a personal, non-exclusive, non-transferable, limited privilege to enter and use the website."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:288
+msgid "Third party Data Processors"
+msgstr "Third party Data Processors"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:55
+msgid "This agreement sets forth the terms and conditions that apply to the use of these services by a person, organization, or other entity (\"users\" or \"you\"). By using these services, operators agree to comply with all the terms and conditions herein."
+msgstr "This agreement sets forth the terms and conditions that apply to the use of these services by a person, organization, or other entity (\"users\" or \"you\"). By using these services, operators agree to comply with all the terms and conditions herein."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:798
+msgid "This application and its contents are protected under respective intellectual property laws as well as international copyright laws. Copyright in all text, graphics, user interfaces, visual interfaces, photographs, trademarks, logos, sounds, music, artwork, and computer code (\"content\") on the SendAfrika application is owned or licensed by SendAfrika Limited. SendAfrika application and its respective logos are trademarks or registered trademarks of SendAfrika. All other product names mentioned in this application are the trademarks or registered trademarks of their respective owners and are mentioned for identification purposes only. Any service, publication, design, product, process, software, technology, information, know-how, or idea described in this website may be the subject of other rights, including other intellectual property rights, which are owned by SendAfrika or other interested parties and are not licensed to you hereunder."
+msgstr "This application and its contents are protected under respective intellectual property laws as well as international copyright laws. Copyright in all text, graphics, user interfaces, visual interfaces, photographs, trademarks, logos, sounds, music, artwork, and computer code (\"content\") on the SendAfrika application is owned or licensed by SendAfrika Limited. SendAfrika application and its respective logos are trademarks or registered trademarks of SendAfrika. All other product names mentioned in this application are the trademarks or registered trademarks of their respective owners and are mentioned for identification purposes only. Any service, publication, design, product, process, software, technology, information, know-how, or idea described in this website may be the subject of other rights, including other intellectual property rights, which are owned by SendAfrika or other interested parties and are not licensed to you hereunder."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:605
+msgid "This disclaimer of liability applies to any damages or injury caused by the use of this application's content and/or services, including but not limited to: performance failure and/or service delay or interruption, communication line failure, errors and/or omissions, computer viruses and/or computer worms, unauthorized access to information, theft of information. The user expressly agrees that all risk of injury rests entirely with the user. In no event will SendAfrika or any person or entity involved in creating and maintaining this application's content and/or services be liable for any damages arising out of the use or inability to use this application's content and/or services. The provisions of this section shall apply to all materials on this application. To the fullest extent permitted by law, SendAfrika parties disclaim all warranties, express or implied, in connection with the website or application and your use thereof. SendAfrika makes no warranties or representations about the accuracy or completeness of this application's content or the content of any sites linked to this application and assumes no liability or responsibility for any (i) errors, mistakes, or inaccuracies of content, (ii) personal injury or property damage of any nature whatsoever resulting from your access to and use of our application, (iii) any unauthorized access to or use of our secure servers and/or any and all personal information and/or financial information stored therein, (iv) any interruption or cessation of transmission to or from our application, (v) any bugs, viruses, trojan horses, or the like which may be transmitted to or through our application by any third party, and/or (vi) any errors or omissions in any content or for any loss or damage of any kind incurred as a result of the use of any content posted, emailed, transmitted, or otherwise made available via the SendAfrika application. SendAfrika does not warrant, endorse, guarantee, or assume responsibility for any product or service offered by a third party through the SendAfrika application."
+msgstr "This disclaimer of liability applies to any damages or injury caused by the use of this application's content and/or services, including but not limited to: performance failure and/or service delay or interruption, communication line failure, errors and/or omissions, computer viruses and/or computer worms, unauthorized access to information, theft of information. The user expressly agrees that all risk of injury rests entirely with the user. In no event will SendAfrika or any person or entity involved in creating and maintaining this application's content and/or services be liable for any damages arising out of the use or inability to use this application's content and/or services. The provisions of this section shall apply to all materials on this application. To the fullest extent permitted by law, SendAfrika parties disclaim all warranties, express or implied, in connection with the website or application and your use thereof. SendAfrika makes no warranties or representations about the accuracy or completeness of this application's content or the content of any sites linked to this application and assumes no liability or responsibility for any (i) errors, mistakes, or inaccuracies of content, (ii) personal injury or property damage of any nature whatsoever resulting from your access to and use of our application, (iii) any unauthorized access to or use of our secure servers and/or any and all personal information and/or financial information stored therein, (iv) any interruption or cessation of transmission to or from our application, (v) any bugs, viruses, trojan horses, or the like which may be transmitted to or through our application by any third party, and/or (vi) any errors or omissions in any content or for any loss or damage of any kind incurred as a result of the use of any content posted, emailed, transmitted, or otherwise made available via the SendAfrika application. SendAfrika does not warrant, endorse, guarantee, or assume responsibility for any product or service offered by a third party through the SendAfrika application."
+
+#: components/forgotPassword/ForgotPasswordEmailValidate.tsx:64
+msgid "This field is required"
+msgstr "This field is required"
+
+#: app/(auth)/login.tsx:99
+#: app/(auth)/login.tsx:112
+#: app/(authenticated)/[marketOrderId].tsx:148
+#: app/(authenticated)/[marketOrderId].tsx:205
+#: app/(authenticated)/changePassword.tsx:67
+#: app/(authenticated)/changePassword.tsx:81
+#: app/(authenticated)/changePassword.tsx:133
+#: app/(authenticated)/createPaymentType.tsx:105
+#: app/(authenticated)/createPaymentType.tsx:149
+#: app/(authenticated)/createPaymentType.tsx:184
+#: app/(authenticated)/createPaymentType.tsx:243
+#: app/(authenticated)/createPaymentType.tsx:280
+#: app/(authenticated)/createPaymentType.tsx:294
+#: app/(authenticated)/createPaymentType.tsx:310
+#: app/(authenticated)/quotes/createQuote.tsx:106
+#: app/(authenticated)/quotes/createQuote.tsx:157
+#: app/(authenticated)/quotes/createQuote.tsx:205
+#: app/(authenticated)/quotes/createQuote.tsx:240
+#: app/(authenticated)/quotes/createQuote.tsx:271
+#: app/(authenticated)/quotes/createQuote.tsx:312
+#: app/(authenticated)/quotes/editQuote.tsx:97
+#: app/(authenticated)/quotes/editQuote.tsx:131
+#: app/(authenticated)/quotes/editQuote.tsx:177
+#: app/(authenticated)/quotes/editQuote.tsx:212
+#: app/(authenticated)/quotes/editQuote.tsx:243
+#: app/(authenticated)/quotes/editQuote.tsx:284
+#: components/forgotPassword/ForgotPasswordEmailValidate.tsx:98
+#: components/forgotPassword/ForgotPasswordOTPEmail.tsx:85
+#: components/forgotPassword/ForgotSetPassword.tsx:54
+#: components/forgotPassword/ForgotSetPassword.tsx:102
+#: components/signUp/BusinessInformation.tsx:110
+#: components/signUp/BusinessInformation.tsx:145
+#: components/signUp/BusinessInformation.tsx:161
+#: components/signUp/BusinessInformation.tsx:192
+#: components/signUp/BusinessInformation.tsx:223
+#: components/signUp/EmailValidate.tsx:92
+#: components/signUp/PasswordInformation.tsx:52
+#: components/signUp/PasswordInformation.tsx:106
+#: components/signUp/PersonalInformation.tsx:91
+#: components/signUp/PersonalInformation.tsx:103
+msgid "This field is required."
+msgstr "This field is required."
+
+#: app/(authenticated)/quotes/[quoteId].tsx:146
+msgid "This quote is"
+msgstr "This quote is"
+
+#: app/(authenticated)/quotes/createQuote.tsx:228
+#: app/(authenticated)/quotes/editQuote.tsx:200
+msgid "to"
+msgstr "to"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:229
+msgid "To facilitate successful trading, we collect:"
+msgstr "To facilitate successful trading, we collect:"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:205
+msgid "To manage our relationship with you: Notifying you about changes to our terms or privacy policy, asking you to leave a review, or take a survey."
+msgstr "To manage our relationship with you: Notifying you about changes to our terms or privacy policy, asking you to leave a review, or take a survey."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:200
+msgid "To provide our services: for account creating and management to facilitate peer-to-peer currency trading."
+msgstr "To provide our services: for account creating and management to facilitate peer-to-peer currency trading."
+
+#: components/signUp/SelectAccount.tsx:44
+msgid "Trade fx quotes with verified merchants."
+msgstr "Trade fx quotes with verified merchants."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:226
+msgid "Trading Information We Collect"
+msgstr "Trading Information We Collect"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:535
+msgid "Unclaimed Property"
+msgstr "Unclaimed Property"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:446
+msgid "Update personal information for electronic communications"
+msgstr "Update personal information for electronic communications"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:116
+msgid "Use of our services"
+msgstr "Use of our services"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:56
+msgid "Use SendAfrika's services through our mobile applications or website"
+msgstr "Use SendAfrika's services through our mobile applications or website"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:311
+msgid "User ID and Password Information"
+msgstr "User ID and Password Information"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:161
+msgid "User ID and password: Shall mean a unique user identifier and password which authenticate the operator to access the SendAfrika application."
+msgstr "User ID and password: Shall mean a unique user identifier and password which authenticate the operator to access the SendAfrika application."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:168
+msgid "User jurisdiction: Shall mean the territory from which a user or operator is physically located upon initiating payment using the SendAfrika service or accessing the SendAfrika application."
+msgstr "User jurisdiction: Shall mean the territory from which a user or operator is physically located upon initiating payment using the SendAfrika service or accessing the SendAfrika application."
+
+#: app/(authenticated)/profile.tsx:107
+msgid "User Verified Information"
+msgstr "User Verified Information"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:154
+msgid "User: Shall mean any individual or entity that initiates a peer-to-peer transaction to be completed by an operator using the SendAfrika service."
+msgstr "User: Shall mean any individual or entity that initiates a peer-to-peer transaction to be completed by an operator using the SendAfrika service."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:314
+msgid "Users and operators acknowledge and warrant that they are responsible for:"
+msgstr "Users and operators acknowledge and warrant that they are responsible for:"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:260
+msgid "Users and operators warrant that the processing of payment transactions using SendAfrika for services and products procured from an authorized provider shall be genuine and legal transactions only. SendAfrika shall not process any transfer of money between a customer and a provider that is not an authorized payment transaction. In addition, all users of the SendAfrika services accept and acknowledge that the use of the SendAfrika service for payment transactions is a peer-to-peer transaction which exists solely between the provider and customer. SendAfrika, as a facilitator of such payment transactions through its service, is not and shall not be deemed a party to a peer-to-peer transaction."
+msgstr "Users and operators warrant that the processing of payment transactions using SendAfrika for services and products procured from an authorized provider shall be genuine and legal transactions only. SendAfrika shall not process any transfer of money between a customer and a provider that is not an authorized payment transaction. In addition, all users of the SendAfrika services accept and acknowledge that the use of the SendAfrika service for payment transactions is a peer-to-peer transaction which exists solely between the provider and customer. SendAfrika, as a facilitator of such payment transactions through its service, is not and shall not be deemed a party to a peer-to-peer transaction."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:819
+msgid "Users may not modify, publish, transmit, or reproduce any content obtained from this application, except as expressly permitted in the Terms of Use. Users acknowledge that they do not acquire any ownership rights of any content and/or service accessed or obtained from this application. Users shall not upload, exchange, post, reproduce, store in an electronic or other retrieval system, adapt, upload to a third-party location, frame, perform in public, or transmit in any form by any process whatsoever without the specific written consent of SendAfrika; or otherwise make available any copyright-protected material owned by this website without prior written authorization. Users shall be solely responsible for any damage resulting from the infringement of copyrights. The content of this application may not be stored, archived, reproduced, stored in an electronic or other retrieval system, adapted, uploaded to a third-party location, framed, performed in public, or transmitted in any form by any process whatsoever without the specific written consent of SendAfrika."
+msgstr "Users may not modify, publish, transmit, or reproduce any content obtained from this application, except as expressly permitted in the Terms of Use. Users acknowledge that they do not acquire any ownership rights of any content and/or service accessed or obtained from this application. Users shall not upload, exchange, post, reproduce, store in an electronic or other retrieval system, adapt, upload to a third-party location, frame, perform in public, or transmit in any form by any process whatsoever without the specific written consent of SendAfrika; or otherwise make available any copyright-protected material owned by this website without prior written authorization. Users shall be solely responsible for any damage resulting from the infringement of copyrights. The content of this application may not be stored, archived, reproduced, stored in an electronic or other retrieval system, adapted, uploaded to a third-party location, framed, performed in public, or transmitted in any form by any process whatsoever without the specific written consent of SendAfrika."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:431
+msgid "Users or operators can contact SendAfrika through the contact page on the website to:"
+msgstr "Users or operators can contact SendAfrika through the contact page on the website to:"
+
+#: components/signUp/OtpEmailCode.tsx:136
+#: components/signUp/OtpPhoneCode.tsx:140
+msgid "Verify"
+msgstr "Verify"
+
+#: components/signUp/OtpEmailCode.tsx:96
+msgid "Verify your email"
+msgstr "Verify your email"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:209
+msgid "Verify your identity for service use"
+msgstr "Verify your identity for service use"
+
+#: components/signUp/OtpPhoneCode.tsx:95
+msgid "Verify your Phone"
+msgstr "Verify your Phone"
+
+#: components/quotes/RenderQuotesList.tsx:61
+msgid "View"
+msgstr "View"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:842
+msgid "Violation of These Terms of Use: SendAfrika may preserve any transmission or communication from you through the application and may disclose any information we have about you (including your identity) if we determine that such disclosure is necessary in connection with any investigation or complaint regarding your use of the application, to comply with any applicable law, regulation, legal process, or governmental request, including exchanging information with other companies and organizations for fraud protection purposes, or to identify, contact, or bring legal action against someone who may be causing injury to or interference with SendAfrika's rights or property, or the rights or property of visitors to or users of the application."
+msgstr "Violation of These Terms of Use: SendAfrika may preserve any transmission or communication from you through the application and may disclose any information we have about you (including your identity) if we determine that such disclosure is necessary in connection with any investigation or complaint regarding your use of the application, to comply with any applicable law, regulation, legal process, or governmental request, including exchanging information with other companies and organizations for fraud protection purposes, or to identify, contact, or bring legal action against someone who may be causing injury to or interference with SendAfrika's rights or property, or the rights or property of visitors to or users of the application."
+
+#: app/(authenticated)/profile.tsx:261
+msgid "Warning!"
+msgstr "Warning!"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:136
+msgid "We collect and process personal information to operate our business, deliver our services, interact with users, answer inquiries, and fulfill legal obligations. Providing your personal information is voluntary, but not doing so may limit our ability to provide certain services or respond to inquiries."
+msgstr "We collect and process personal information to operate our business, deliver our services, interact with users, answer inquiries, and fulfill legal obligations. Providing your personal information is voluntary, but not doing so may limit our ability to provide certain services or respond to inquiries."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:110
+msgid "We collect personal information through:"
+msgstr "We collect personal information through:"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:255
+msgid "We implement organizational, technical, and administrative measures to safeguard your personal information. While no system can be completely secure, we strive to protect your data with industry best practices. We retain personal information only as long as necessary to provide our services."
+msgstr "We implement organizational, technical, and administrative measures to safeguard your personal information. While no system can be completely secure, we strive to protect your data with industry best practices. We retain personal information only as long as necessary to provide our services."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:122
+msgid "We may also collect additional personal information with your consent through other communications such as emails and surveys. We maintain records of your transactions and activities related to our services."
+msgstr "We may also collect additional personal information with your consent through other communications such as emails and surveys. We maintain records of your transactions and activities related to our services."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:304
+msgid "We may send you marketing communications about our products and services. You have control over the marketing messages you receive and can opt out at any time."
+msgstr "We may send you marketing communications about our products and services. You have control over the marketing messages you receive and can opt out at any time."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:273
+msgid "We may share your personal information with:"
+msgstr "We may share your personal information with:"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:291
+msgid "We use Metamap for identity verification and personal data management."
+msgstr "We use Metamap for identity verification and personal data management."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:196
+msgid "We use your personal information to:"
+msgstr "We use your personal information to:"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:184
+msgid "We will notify affected users and relevant authorities within 24 hours of data breach."
+msgstr "We will notify affected users and relevant authorities within 24 hours of data breach."
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:319
+msgid "We will notify users of significant changes through email and in-app notifcations."
+msgstr "We will notify users of significant changes through email and in-app notifcations."
+
+#: components/signUp/BusinessInformation.tsx:231
+msgid "Website"
+msgstr "Website"
+
+#: app/(auth)/login.tsx:80
+msgid "Welcome"
+msgstr "Welcome"
+
+#: app/(authenticated)/lock/lock.tsx:71
+msgid "Welcome back"
+msgstr "Welcome back"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:42
+msgid "Welcome to SendAfrika, We respect your privacy and are committed to protecting your personal data. This privacy Notice applies when you interact with SendAfrika and outlines how we collect, use, share, and protect personal information and the third parties with whom we may share it and the measures we take to protect the security of the data. Our goal is to provide transparency and build trust with our users. This notice applies when you:"
+msgstr "Welcome to SendAfrika, We respect your privacy and are committed to protecting your personal data. This privacy Notice applies when you interact with SendAfrika and outlines how we collect, use, share, and protect personal information and the third parties with whom we may share it and the measures we take to protect the security of the data. Our goal is to provide transparency and build trust with our users. This notice applies when you:"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:76
+msgid "When you interact with us, we may collect the following types of personal information"
+msgstr "When you interact with us, we may collect the following types of personal information"
+
+#: app/(authenticated)/privacyAndSupport/privacyAndPolicy.tsx:133
+msgid "Why We Collect and Process Personal Information"
+msgstr "Why We Collect and Process Personal Information"
+
+#: app/(authenticated)/(tabs)/quickTrade.tsx:263
+#: app/(authenticated)/[marketOrderId].tsx:235
+msgid "will be paid to the selected account"
+msgstr "will be paid to the selected account"
+
+#: app/(authenticated)/[marketOrderId].tsx:234
+#~ msgid "will be to the selected account"
+#~ msgstr "will be to the selected account"
+
+#: app/(authenticated)/[marketOrderId].tsx:96
+#: app/(authenticated)/quotes/[quoteId].tsx:59
+#: app/(authenticated)/quotes/editQuote.tsx:81
+#: components/market/RightCurrencySelector.tsx:44
+#: components/quotes/RenderQuotesList.tsx:22
+#: components/quotes/RightQuoteCurrencySelector.tsx:43
+msgid "With"
+msgstr "With"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:451
+msgid "Withdraw consent for electronic communications (withdrawal may result in service termination)"
+msgstr "Withdraw consent for electronic communications (withdrawal may result in service termination)"
+
+#: components/signUp/OtpEmailCode.tsx:73
+#: components/signUp/OtpPhoneCode.tsx:78
+msgid "Wrong code. Attempts Remaining is"
+msgstr "Wrong code. Attempts Remaining is"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:184
+msgid "You affirm that you are either more than 18 years of age, or an emancipated minor, or possess legal parental or guardian consent, and are fully able and competent to enter into the terms, conditions, obligations, affirmations, representations, and warranties set forth in these Terms of Use, and to abide by and comply with these Terms of Use. The operator must have permission to carry out business in their country of operation, and the operator acknowledges that it shall be fully responsible for its employees, officers, representatives, and other agents accessing the service, or any other person’s access and conduct while accessing the SendAfrika application at any of its locations."
+msgstr "You affirm that you are either more than 18 years of age, or an emancipated minor, or possess legal parental or guardian consent, and are fully able and competent to enter into the terms, conditions, obligations, affirmations, representations, and warranties set forth in these Terms of Use, and to abide by and comply with these Terms of Use. The operator must have permission to carry out business in their country of operation, and the operator acknowledges that it shall be fully responsible for its employees, officers, representatives, and other agents accessing the service, or any other person’s access and conduct while accessing the SendAfrika application at any of its locations."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:859
+msgid "You agree that SendAfrika may, in its sole discretion and without prior notice, terminate your access to the application and/or block your future access to this application if we determine that you have violated these terms of use or other agreements or guidelines associated with your use of the application. You also agree that any violation by you of these terms of use will constitute an unlawful and unfair business practice, causing irreparable harm to SendAfrika, for which monetary damages would be inadequate. You consent to SendAfrika obtaining any injunctive relief that SendAfrika deems necessary or appropriate in such circumstances. These remedies are in addition to any other remedies SendAfrika may be entitled to at law or in equity."
+msgstr "You agree that SendAfrika may, in its sole discretion and without prior notice, terminate your access to the application and/or block your future access to this application if we determine that you have violated these terms of use or other agreements or guidelines associated with your use of the application. You also agree that any violation by you of these terms of use will constitute an unlawful and unfair business practice, causing irreparable harm to SendAfrika, for which monetary damages would be inadequate. You consent to SendAfrika obtaining any injunctive relief that SendAfrika deems necessary or appropriate in such circumstances. These remedies are in addition to any other remedies SendAfrika may be entitled to at law or in equity."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:685
+msgid "You agree that the SendAfrika application shall be deemed a passive application that does not give rise to personal jurisdiction over SendAfrika, either specific or general, in jurisdictions other than the government of Ghana. These terms of use shall be governed by the internal substantive laws of the government of Ghana, without respect to its conflict of laws principles. Any claim or dispute between you and SendAfrika that arises in whole or in part from the SendAfrika website shall be decided exclusively by a court of competent jurisdiction located in the government of Ghana. These terms of use, together with the privacy policy and any other legal notices published by SendAfrika on the application, shall constitute the entire agreement between you and SendAfrika concerning the SendAfrika application. If any provision of these terms of use is deemed invalid by a court of competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of these terms of use, which shall remain in full force and effect. No waiver of any term of these terms of use shall be deemed a further or continuing waiver of such term or any other term, and SendAfrika's failure to assert any right or provision under these terms of use shall not constitute a waiver of such right or provision. You agree that all matters relating to your access to or use of the website, including all disputes, will be governed by the laws of the government of Ghana, without regard to its conflicts of laws provisions. You agree to the personal jurisdiction by and venue in the courts of the government of Ghana and waive any objection to such jurisdiction or venue. Any claim under these terms of use must be brought within one (1) year after the cause of action arises, or such claim or cause of action is barred. No recovery may be sought or received for damages other than out-of-pocket expenses. In the event of any controversy or dispute between SendAfrika and you arising out of or in connection with your use of the application, the parties shall attempt, promptly and in good faith, to resolve any such dispute. If we are unable to resolve any such dispute within a reasonable time (not to exceed sixty (60) days), then either party may submit a dispute arising out of or relating to these terms of use for arbitration in accordance with the rules and procedures of the Ghanaian Alternative Dispute Resolution Act. Arbitration shall take place in Accra, Greater-Accra, and shall be conducted in the English language. Provided, however, that nothing contained in this section shall restrict or limit the right of either party to seek injunctive relief from a court of competent jurisdiction."
+msgstr "You agree that the SendAfrika application shall be deemed a passive application that does not give rise to personal jurisdiction over SendAfrika, either specific or general, in jurisdictions other than the government of Ghana. These terms of use shall be governed by the internal substantive laws of the government of Ghana, without respect to its conflict of laws principles. Any claim or dispute between you and SendAfrika that arises in whole or in part from the SendAfrika website shall be decided exclusively by a court of competent jurisdiction located in the government of Ghana. These terms of use, together with the privacy policy and any other legal notices published by SendAfrika on the application, shall constitute the entire agreement between you and SendAfrika concerning the SendAfrika application. If any provision of these terms of use is deemed invalid by a court of competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of these terms of use, which shall remain in full force and effect. No waiver of any term of these terms of use shall be deemed a further or continuing waiver of such term or any other term, and SendAfrika's failure to assert any right or provision under these terms of use shall not constitute a waiver of such right or provision. You agree that all matters relating to your access to or use of the website, including all disputes, will be governed by the laws of the government of Ghana, without regard to its conflicts of laws provisions. You agree to the personal jurisdiction by and venue in the courts of the government of Ghana and waive any objection to such jurisdiction or venue. Any claim under these terms of use must be brought within one (1) year after the cause of action arises, or such claim or cause of action is barred. No recovery may be sought or received for damages other than out-of-pocket expenses. In the event of any controversy or dispute between SendAfrika and you arising out of or in connection with your use of the application, the parties shall attempt, promptly and in good faith, to resolve any such dispute. If we are unable to resolve any such dispute within a reasonable time (not to exceed sixty (60) days), then either party may submit a dispute arising out of or relating to these terms of use for arbitration in accordance with the rules and procedures of the Ghanaian Alternative Dispute Resolution Act. Arbitration shall take place in Accra, Greater-Accra, and shall be conducted in the English language. Provided, however, that nothing contained in this section shall restrict or limit the right of either party to seek injunctive relief from a court of competent jurisdiction."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:557
+msgid "You agree to defend, indemnify, and hold harmless SendAfrika, its parent corporation, officers, directors, shareholders, predecessors, successors in interest, employees, agents, subsidiaries, and affiliates from any claims, losses, liabilities, expenses (including attorneys’ fees), arising from your use of the application, non-compliance or breach of these terms, legal proceedings from your actions or use, violation of laws or rights of third parties. This indemnification obligation survives these terms and your use of the SendAfrika website."
+msgstr "You agree to defend, indemnify, and hold harmless SendAfrika, its parent corporation, officers, directors, shareholders, predecessors, successors in interest, employees, agents, subsidiaries, and affiliates from any claims, losses, liabilities, expenses (including attorneys’ fees), arising from your use of the application, non-compliance or breach of these terms, legal proceedings from your actions or use, violation of laws or rights of third parties. This indemnification obligation survives these terms and your use of the SendAfrika website."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:339
+msgid "You agree to notify SendAfrika immediately if you suspect unauthorized use of your user ID or password or become aware of any other security breach related to the SendAfrika service. Operators acknowledge that all employees, officers, agents, and representatives with access to user IDs and/or passwords (including former employees) are deemed authorized users of the SendAfrika service, and these terms of use apply to them."
+msgstr "You agree to notify SendAfrika immediately if you suspect unauthorized use of your user ID or password or become aware of any other security breach related to the SendAfrika service. Operators acknowledge that all employees, officers, agents, and representatives with access to user IDs and/or passwords (including former employees) are deemed authorized users of the SendAfrika service, and these terms of use apply to them."
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:775
+msgid "You may not assign this Terms of Use or any rights or obligations hereunder, by operation of law or otherwise, without our prior written approval, and any such attempted assignment shall be void. SendAfrika reserves the right to freely assign this Terms of Use and the rights and obligations hereunder to any third party without notice to or consent from you, and such assignment shall operate as a novation and relieve and discharge SendAfrika from any and all obligations and liability hereunder. Subject to the foregoing, this Terms of Use shall be binding upon and inure to the benefit of the parties hereto, their successors, and permitted assigns."
+msgstr "You may not assign this Terms of Use or any rights or obligations hereunder, by operation of law or otherwise, without our prior written approval, and any such attempted assignment shall be void. SendAfrika reserves the right to freely assign this Terms of Use and the rights and obligations hereunder to any third party without notice to or consent from you, and such assignment shall operate as a novation and relieve and discharge SendAfrika from any and all obligations and liability hereunder. Subject to the foregoing, this Terms of Use shall be binding upon and inure to the benefit of the parties hereto, their successors, and permitted assigns."
+
+#: app/(authenticated)/[marketOrderId].tsx:242
+msgid "You'll pay"
+msgstr "You'll pay"
+
+#: app/(authenticated)/[marketOrderId].tsx:263
+msgid "You'll receive"
+msgstr "You'll receive"
+
+#: app/(authenticated)/privacyAndSupport/termsAndCondition.tsx:357
+msgid "Your privacy and security are important to SendAfrika. The SendAfrika application may collect and use certain data to process your instructions or access the application. Data usage is subject to our privacy policy, which you should read in full as its terms and conditions are incorporated herein."
+msgstr "Your privacy and security are important to SendAfrika. The SendAfrika application may collect and use certain data to process your instructions or access the application. Data usage is subject to our privacy policy, which you should read in full as its terms and conditions are incorporated herein."

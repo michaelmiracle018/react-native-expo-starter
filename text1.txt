@@ -1,0 +1,454 @@
+import {
+  View,
+  Text,
+  StyleSheet,
+  Platform,
+  ActivityIndicator,
+  Image,
+  Button,
+} from 'react-native'
+import {useCallback, useMemo, useState} from 'react'
+import screenStyles from '#/constants/screenStyles'
+import {
+  useStickyHeaderFlashListScrollProps,
+  withStickyHeaderFlashList,
+} from 'react-native-sticky-parallax-header'
+import MarketTabs from './MarketTabs'
+import {useInfiniteQuery} from '@tanstack/react-query'
+import {serviceGetAllCurrencyPairMarket} from '#/services/currencyPair.services'
+import {FETCHALLMARKETS} from '#/reactQuery/querykeys'
+import MarketRenderList from './MarketRenderList'
+import {COLORS} from '#/constants/colors'
+import images from '#/constants/images'
+import TextStyle from '#/components/Wrappers/TextStyle'
+import CheckInternet from '#/components/InternetConnectivity/CheckInternet'
+import {useRefreshOnFocus} from '#/hooks/useRefreshOnFocus'
+import MarketHeader from './MarketHeader'
+import ScreenWrapperWithoutPadding from '#/components/Wrappers/ScreenWrapperWithoutPadding'
+import {useCurrencySelectorContext} from '#/state/currencySelector'
+import {FlatList} from 'react-native-gesture-handler'
+
+const StickyHeaderFlashList = withStickyHeaderFlashList(FlatList)
+const PARALLAX_HEIGHT = 28
+const SNAP_START_THRESHOLD = 50
+const SNAP_STOP_THRESHOLD = 330
+export default function MarketAd() {
+  const [refreshing, setRefreshing] = useState(false)
+  const [tradingType, setTradingType] = useState('Buy')
+
+  const changeTradeType = useCallback(
+    value => {
+      setTradingType(value)
+    },
+    [tradingType],
+  )
+
+  const {rightSelectedCurrency, leftSelectedCurrency} =
+    useCurrencySelectorContext()
+  const targetCurrency = rightSelectedCurrency?.currencyShortHand
+  const tradingCurrency = leftSelectedCurrency?.currencyShortHand
+
+  const {
+    onMomentumScrollEnd,
+    onScroll,
+    onScrollEndDrag,
+    scrollHeight,
+    scrollViewRef,
+  } = useStickyHeaderFlashListScrollProps({
+    parallaxHeight: PARALLAX_HEIGHT,
+    snapStartThreshold: SNAP_START_THRESHOLD,
+    snapStopThreshold: SNAP_STOP_THRESHOLD,
+    snapToEdge: true,
+  })
+
+  const {
+    data,
+    fetchNextPage,
+    isLoading,
+    hasNextPage,
+    isFetchingNextPage,
+    isError,
+    error,
+    refetch,
+  } = useInfiniteQuery({
+    queryKey: [FETCHALLMARKETS, {tradingType, tradingCurrency, targetCurrency}],
+    queryFn: ({pageParam = 1}) =>
+      serviceGetAllCurrencyPairMarket({
+        tradingType,
+        tradingCurrency,
+        targetCurrency,
+        pageParam,
+      }),
+
+    initialPageParam: 1,
+    getNextPageParam: lastPage => {
+      if (lastPage?.nextPage !== null) return lastPage?.nextPage
+      return null
+    },
+    enabled: !!tradingType && !!tradingCurrency && !!targetCurrency,
+  })
+
+  useRefreshOnFocus(refetch)
+  // console.log('HELLO', data)
+  // ? ASSIGN MARKET TO DISPLAY
+  const marketData = useMemo(() => {
+    if (data) {
+      const mergeData = []
+      for (let d of data.pages) {
+        mergeData.push(...(d.data || []))
+      }
+      return mergeData
+    }
+  }, [data, tradingType, targetCurrency, tradingCurrency])
+  // ? REFRESH MARKET
+  async function onRefresh() {
+    await refetch()
+  }
+  // ? ON END REACH FUNCTION TO FETCH MORE
+  const onEndReached = useCallback(async () => {
+    if (!hasNextPage || isError) return
+    try {
+      await fetchNextPage()
+    } catch (err) {
+      console.log('hejjjj', err)
+    }
+  }, [
+    tradingType,
+    targetCurrency,
+    tradingCurrency,
+    data,
+    fetchNextPage,
+    isError,
+  ])
+
+  const renderMarketItem = useCallback(
+    ({item, tradeType}) => {
+      return <MarketRenderList item={item} tradeType={tradeType} />
+    },
+    [tradingType, tradingCurrency, targetCurrency, data],
+  )
+
+  const NoItem = () => {
+    return (
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          marginVertical: 50,
+        }}>
+        <Image
+          source={images.empty_page}
+          style={{width: 70, height: 70, zIndex: 99}}
+        />
+        <TextStyle style={{color: COLORS.gray, fontSize: 15}} xLarge famBold>
+          No trade Found
+        </TextStyle>
+      </View>
+    )
+  }
+  const renderLoader = () => {
+    return isLoading ? (
+      <View style={styles.loaderStyle}>
+        <ActivityIndicator size="large" color={COLORS.blue_1} />
+      </View>
+    ) : isFetchingNextPage ? (
+      <View style={styles.loaderStyle}>
+        <ActivityIndicator size="large" color={COLORS.blue_1} />
+      </View>
+    ) : !hasNextPage && marketData?.length ? (
+      <TextStyle
+        style={[
+          {textAlign: 'center', marginVertical: 20, color: COLORS.gary_1},
+        ]}
+        medium
+        famMedium>
+        No more data
+      </TextStyle>
+    ) : null
+  }
+
+  return (
+    <>
+      <CheckInternet>
+        <ScreenWrapperWithoutPadding>
+          <StickyHeaderFlashList
+            ref={scrollViewRef}
+            containerStyle={[screenStyles.stretchContainer, {marginBottom: 50}]}
+            data={marketData}
+            decelerationRate="normal"
+            keyExtractor={item => item._id}
+            /**
+             * Refresh control is not implemented on web, which causes styles as margin or padding
+             * to be duplicated - ignore it on web, it will be no-op anyway
+             *
+             * TODO: describe it as a web limitation
+             */
+            {...Platform.select({native: {onRefresh}})}
+            refreshing={refreshing}
+            onScroll={onScroll}
+            onMomentumScrollEnd={onMomentumScrollEnd}
+            onScrollEndDrag={onScrollEndDrag}
+            renderHeader={() => {
+              return (
+                <View pointerEvents="box-none" style={[{height: 120}]}>
+                  <MarketHeader
+                    changeTradeType={changeTradeType}
+                    tradeType={tradingType}
+                  />
+                </View>
+              )
+            }}
+            renderItem={({item}) =>
+              renderMarketItem({item, tradeType: tradingType})
+            }
+            renderTabs={() => <MarketTabs tradeType={tradingType} />}
+            scrollEventThrottle={16}
+            estimatedItemSize={400}
+            showsVerticalScrollIndicator={false}
+            ListEmptyComponent={!isFetchingNextPage && !isLoading && <NoItem />}
+            ListFooterComponent={renderLoader}
+            onEndReached={onEndReached}
+            snapToAlignment="start"
+          />
+        </ScreenWrapperWithoutPadding>
+      </CheckInternet>
+    </>
+  )
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  loaderStyle: {
+    marginTop: 20,
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import React, { useRef } from 'react';
+import {
+  StyleSheet,
+  View,
+  Animated,
+  StatusBar,
+  TextInput,
+  TouchableOpacity,
+  Image,
+  Text,
+  Platform,
+  ActivityIndicator,
+  Button,
+} from 'react-native';
+import FeatherIcon from 'react-native-vector-icons/Feather';
+import FontAwesome from 'react-native-vector-icons/FontAwesome5';
+import {useCallback, useMemo, useState} from 'react'
+import screenStyles from '#/constants/screenStyles'
+import {
+  useStickyHeaderFlashListScrollProps,
+  withStickyHeaderFlashList,
+} from 'react-native-sticky-parallax-header'
+import MarketTabs from './MarketTabs'
+import {useInfiniteQuery} from '@tanstack/react-query'
+import {serviceGetAllCurrencyPairMarket} from '#/services/currencyPair.services'
+import {FETCHALLMARKETS} from '#/reactQuery/querykeys'
+import MarketRenderList from './MarketRenderList'
+import {COLORS} from '#/constants/colors'
+import images from '#/constants/images'
+import TextStyle from '#/components/Wrappers/TextStyle'
+import CheckInternet from '#/components/InternetConnectivity/CheckInternet'
+import {useRefreshOnFocus} from '#/hooks/useRefreshOnFocus'
+import MarketHeader from './MarketHeader'
+import ScreenWrapperWithoutPadding from '#/components/Wrappers/ScreenWrapperWithoutPadding'
+import {useCurrencySelectorContext} from '#/state/currencySelector'
+import {FlatList} from 'react-native-gesture-handler'
+import { detectAndroid, detectIOS } from '#/lib/platform/detection';
+
+
+const CONTAINER_HEIGHT = 50;
+export default function Example() {
+  const scrollY = useRef(new Animated.Value(0)).current
+  const [refreshing, setRefreshing] = useState(false)
+  const [tradingType, setTradingType] = useState('Buy')
+
+  const changeTradeType = useCallback(
+    value => {
+      setTradingType(value)
+    },
+    [tradingType],
+  )
+
+  const {rightSelectedCurrency, leftSelectedCurrency} =
+    useCurrencySelectorContext()
+  const targetCurrency = rightSelectedCurrency?.currencyShortHand
+  const tradingCurrency = leftSelectedCurrency?.currencyShortHand
+
+  const {
+    data,
+    fetchNextPage,
+    isLoading,
+    hasNextPage,
+    isFetchingNextPage,
+    isError,
+    error,
+    refetch,
+  } = useInfiniteQuery({
+    queryKey: [FETCHALLMARKETS, {tradingType, tradingCurrency, targetCurrency}],
+    queryFn: ({pageParam = 1}) =>
+      serviceGetAllCurrencyPairMarket({
+        tradingType,
+        tradingCurrency,
+        targetCurrency,
+        pageParam,
+      }),
+
+    initialPageParam: 1,
+    getNextPageParam: lastPage => {
+      if (lastPage?.nextPage !== null) return lastPage?.nextPage
+      return null
+    },
+    enabled: !!tradingType && !!tradingCurrency && !!targetCurrency,
+  })
+
+  useRefreshOnFocus(refetch)
+  // console.log('HELLO', data)
+  // ? ASSIGN MARKET TO DISPLAY
+  const marketData = useMemo(() => {
+    if (data) {
+      const mergeData = []
+      for (let d of data.pages) {
+        mergeData.push(...(d.data || []))
+      }
+      return mergeData
+    }
+  }, [data, tradingType, targetCurrency, tradingCurrency])
+  // ? REFRESH MARKET
+  async function onRefresh() {
+    await refetch()
+  }
+  // ? ON END REACH FUNCTION TO FETCH MORE
+  const onEndReached = useCallback(async () => {
+    if (!hasNextPage || isError) return
+    try {
+      await fetchNextPage()
+    } catch (err) {
+      console.log('hejjjj', err)
+    }
+  }, [
+    tradingType,
+    targetCurrency,
+    tradingCurrency,
+    data,
+    fetchNextPage,
+    isError,
+  ])
+
+  const renderMarketItem = useCallback(
+    ({item, tradeType}) => {
+      return <MarketRenderList item={item} tradeType={tradeType} />
+    },
+    [tradingType, tradingCurrency, targetCurrency, data],
+  )
+
+  const NoItem = () => {
+    return (
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          marginVertical: 50,
+        }}>
+        <Image
+          source={images.empty_page}
+          style={{width: 70, height: 70, zIndex: 99}}
+        />
+        <TextStyle style={{color: COLORS.gray, fontSize: 15}} xLarge famBold>
+          No trade Found
+        </TextStyle>
+      </View>
+    )
+  }
+  const renderLoader = () => {
+    return isLoading ? (
+      <View style={styles.loaderStyle}>
+        <ActivityIndicator size="large" color={COLORS.blue_1} />
+      </View>
+    ) : isFetchingNextPage ? (
+      <View style={styles.loaderStyle}>
+        <ActivityIndicator size="large" color={COLORS.blue_1} />
+      </View>
+    ) : !hasNextPage && marketData?.length ? (
+      <TextStyle
+        style={[
+          {textAlign: 'center', marginVertical: 20, color: COLORS.gary_1},
+        ]}
+        medium
+        famMedium>
+        No more data
+      </TextStyle>
+    ) : null
+  }
+
+
+
+
+
+  return (
+    <CheckInternet>
+        <ScreenWrapperWithoutPadding>
+    <View>
+           <MarketHeader
+           changeTradeType={changeTradeType}
+           tradeType={tradingType} />
+        <MarketTabs tradeType={tradingType} />
+      <Animated.FlatList
+        contentContainerStyle={styles.content}
+        
+        scrollEventThrottle={1}
+        data={marketData}
+            decelerationRate="normal"
+            keyExtractor={item => item._id}
+            renderItem={({item}) =>
+              renderMarketItem({item, tradeType: tradingType})
+            }
+            estimatedItemSize={400}
+            showsVerticalScrollIndicator={false}
+            ListEmptyComponent={!isFetchingNextPage && !isLoading && <NoItem />}
+            ListFooterComponent={renderLoader}
+            onEndReached={onEndReached}
+       
+      />
+    </View>
+    </ScreenWrapperWithoutPadding>
+          </CheckInternet>
+  );
+}
+
+const styles = StyleSheet.create({
+  content: {
+    // position: 'relative',
+    // paddingTop: 250,
+    paddingBottom: 300,
+
+  },
+});

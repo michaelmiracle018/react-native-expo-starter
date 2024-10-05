@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "75378441103",
+    "project_id": "sendafrika-fx-7e6e7",
+    "storage_bucket": "sendafrika-fx-7e6e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75378441103:android:3c2d3dee0203f9de5269fa",
+        "android_client_info": {
+          "package_name": "com.sendafrika_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq_6v3T0ipURMpI1MkOTxfW5s8KUdaNx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

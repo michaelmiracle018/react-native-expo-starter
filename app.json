@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "SendAfrika",
+    "privacy": "public",
+    "slug": "sendafrika",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/sendafrika_light_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/sendafrika-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.miraclemichael.sendafrikamoneyapp",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.sendafrika_mobile"
+    },
+    "owner": "sendafrika",
+    "plugins": [
+      [
+        "onesignal-expo-plugin",
+        {
+          "mode": "development",
+          "smallIcons": ["./assets/sendafrika_light_logo.png"]
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow $(PRODUCT_NAME) to use Face ID to unlock app."
+        }
+      ],
+      "expo-localization",
+      "expo-build-properties",
+      "expo-font"
+    ],
+    "extra": {
+      "oneSignalAppId": "a2232140-b152-4d62-aeb7-109f24201537",
+      "eas": {
+        "projectId": "f26ee378-e42f-4c07-9be2-f1266e504290"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "cli": {
+        "version": ">=9.0.8",
+        "appVersionSource": "remote",
+        "promptToConfigurePushNotifications": true
+    },
+    "build": {
+        "development": {
+            "extends": "production",
+            "developmentClient": true,
+            "distribution": "internal"
+        },
+        "base": {
+            "node": "20.12.0"
+        },
+        "preview": {
+            "distribution": "internal",
+            "android": {
+                "buildType": "apk"
+            },
+            "ios": {
+                "simulator": true
+            }
+        },
+        "production": {
+            "android": {
+                "resourceClass": "large"
+              },
+              "ios": {
+                "resourceClass": "large"
+              },
+              "autoIncrement": true
+        }
+    },
+    "submit": {
+        "production": {}
+    }
+}
