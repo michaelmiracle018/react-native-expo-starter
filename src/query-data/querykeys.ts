@@ -1,0 +1,15 @@
+export const FETCHALLMARKETS = "fetchAllMarkets";
+export const USERPROFILE = "userProfile";
+export const AllPAYMENTDETAILS = "allPaymentDetails";
+export const MARKETORDER = "marketOrder";
+export const FILTER_PAYMENT = "filterPayment";
+export const GET_ALL_ADVERTS = "getAllAdverts";
+export const CURRENCY_PAIR_RATE = "currencyPairRate";
+export const FETCH_ALL_ORDERS = "fetchAllOrders";
+export const FETCH_SINGLE_ORDER = "fetchSingleOrder";
+export const FETCH_NAIRA_PAYMENT_DETAILS = "fetchNairaPaymentDetails";
+export const CANCEL_ORDER = "CancelOrder";
+export const SINGLE_CURRENCY_PAIR = "singleCurrencyPair";
+export const BANK_DATA = "allBankData";
+export const TRACK_USER_ORDER = "trackUserPrder";
+export const LOCATION_API = "locationApi";
